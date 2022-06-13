@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, Collectables } from "./pages";
+import { Home, Collectables, Explore } from "./pages";
 import { Header } from './components'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/collectables" element={<Collectables />} />
+        <Route path="/explore" element={<Explore />} />
       </Routes>
     </div>
   );
