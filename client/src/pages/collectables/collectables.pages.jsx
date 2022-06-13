@@ -17,6 +17,8 @@ const Collectables = () => {
           members-only benefits, a collaborative graffiti board. Future areas
           and perks can be unlocked by the community through roadmap activation.
         </p>
+        <button className="btn-hover"> <a href="/marketplace">
+        Browse NFTs</a></button>
       </div>
     </div>
   );

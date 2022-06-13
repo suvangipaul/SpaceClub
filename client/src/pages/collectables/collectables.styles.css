@@ -32,3 +32,30 @@
     margin-top: -40rem;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) -2.76%, #0d0d0df9 50.24%);
 }
+.btn-hover {
+    font-family: 'Life Savers', cursive;
+    width: 170px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 55rem;
+    margin-top: 5rem;
+    height: 45px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+.btn-hover a{
+    text-decoration: none;
+    color: white;
+}
