@@ -1,20 +1,25 @@
 import React from 'react'
 import './collectables.styles.css'
-import image from '../../assets/image 7.png'
 import { Ccards } from '../../components/c-cards/ccards.components.jsx'
 
 const Collectables = () => {
   return (
-    <div className='c-main'>
-      <div className="c-image">
-        <img src={image} alt="" />
-      </div>
-      <div className='c-content'>
-        <h1 className='c-heading'>Meet the Space Club Collectibles</h1>
-        <p className="c-para">A collections of over thousands unique Space themed NFTs — unique digital collectibles living on the Ethereum blockchain. Your Space theme doubles as your Space Club membership card, and grants access to members-only benefits, a collaborative graffiti board. Future areas and perks can be unlocked by the community through roadmap activation.</p>
+    <div className="c-main">
+      <div className="collectables-image-bg"></div>
+      <div className="collect-overlay"></div>
+
+      <div className="c-content">
+        <h1 className="c-heading">Meet the Space Club Collectibles</h1>
+        <p className="c-para">
+          A collections of over thousands unique Space themed NFTs — unique
+          digital collectibles living on the Ethereum blockchain. Your Space
+          theme doubles as your Space Club membership card, and grants access to
+          members-only benefits, a collaborative graffiti board. Future areas
+          and perks can be unlocked by the community through roadmap activation.
+        </p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Collectables
+export default Collectables;

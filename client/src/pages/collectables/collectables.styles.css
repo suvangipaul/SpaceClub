@@ -8,11 +8,27 @@
 .c-content{
     position: relative;
     margin-top: -23rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    padding: 0 7rem;
 }
 .c-heading{
     font-weight: 600;
     margin-top: 1rem;
     font-size: 40px;
+}
+
+.collectables-image-bg {
+    position: relative;
+    z-index: -2;
+    margin-top: -5rem;
+    height: 40rem;
+    background: url("https://cdn.dribbble.com/users/518045/screenshots/16544731/media/92bbe419118fa8e4da65225a7459ddd2.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.collect-overlay {
+    position: relative;
+    z-index: -1;
+    height: 40rem;
+    margin-top: -40rem;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) -2.76%, #0d0d0df9 50.24%);
 }
