@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Ccards = () => {
+const Nftcard = () => {
   return (
     <div>c-cards.components</div>
   )
 }
 
-export default Ccards
+export default Nftcard

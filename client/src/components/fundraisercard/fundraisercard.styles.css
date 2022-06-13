@@ -1,0 +1,60 @@
+.fundraiser-container {
+    padding: 2rem;
+    width: 70rem;
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.fundraiser-container:hover {
+    background-color: rgb(34, 34, 34);
+}
+
+.fundraiser-pic {
+    height: 12rem;
+    width: 18rem;
+    border-radius: 10px;
+}
+
+.circle {
+    height: 4rem;
+    width: 4rem;
+    border: 8px solid grey;
+    border-radius: 4rem;
+}
+
+.fundraiser-details {
+    padding: 0 2rem;
+}
+
+.fund-raised {
+    display: flex;
+    align-items: center;
+}
+
+.fund-raised p {
+    margin-left: 1rem;
+}
+
+.fund-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fund-donate-btn {
+    padding: .5rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    font-family: 'Life Savers', cursive;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+    background: linear-gradient(270deg, rgba(5, 0, 255, 0.2) 0%, rgba(53, 28, 206, 0) 100%), linear-gradient(90deg, rgba(252, 0, 0, 0.2) 5.22%, rgba(255, 0, 0, 0) 100%), #4DDDD4;
+}
+
+.fund-donate-btn:hover {
+    transform: scale(1.1);
+}
