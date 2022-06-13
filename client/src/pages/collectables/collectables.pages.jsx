@@ -1,6 +1,7 @@
 import React from 'react'
 import './collectables.styles.css'
 import image from '../../assets/image 7.png'
+import { Ccards } from '../../components/c-cards/ccards.components.jsx'
 
 const Collectables = () => {
   return (
