@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.styles.css";
+// import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Header = () => {
@@ -40,8 +41,8 @@ const Header = () => {
                 </a>
               </li>
             </span>
-            <li onClick={() => loginWithRedirect()}>
-              <a href="/about">Log in</a>
+            <li>
+              <a onClick={() => loginWithRedirect()} href="/">Log in</a>
             </li>
           </ul>
         )}
@@ -49,13 +50,11 @@ const Header = () => {
           <ul>
             <span>
               <li onClick={() => logoutWithRedirect()}>
-                <a href="/">Logout</a>
+                Logout
               </li>
             </span>
             <li>
-              {/* <Link to="/profile">
                 <img className="user-image" src={user.picture} alt="" />
-              </Link> */}
             </li>
           </ul>
         )}
