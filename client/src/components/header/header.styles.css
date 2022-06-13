@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 2rem;
-    font-weight: 900;
-    font-size: 1.7rem;
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding-left: 15rem;
 }
 
 .nav_options ul {
@@ -19,7 +20,7 @@
 .nav_options li a {
     text-decoration: none;
     border: none;
-    color: black;
+    color: white;
 }
 
 .nav_options li a:hover {
@@ -38,16 +39,11 @@
 .signin_options li a {
     text-decoration: none;
     border: none;
-    color: black;
+    color: white;
 }
 
 .signin_options li a:hover {
     border-bottom: 2px solid;
-}
-
-.gray {
-    color: gray !important;
-    border-right: 2px solid;
 }
 
 .user-image {
@@ -60,4 +56,9 @@
     margin-left: 2rem;
     font-weight: 1500;
     text-decoration: solid;
+}
+
+.gray {
+    color: gray !important;
+    border-right: 2px solid;
 }

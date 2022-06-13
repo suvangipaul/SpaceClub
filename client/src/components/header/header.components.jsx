@@ -17,13 +17,16 @@ const Header = () => {
             <a href="/">Explore</a>
           </li>
           <li>
-            <a href="/gallery">Collectibiles</a>
+            <a href="/collectables">Collectables</a>
           </li>
           <li>
             <a href="/activities">Activities</a>
           </li>
           <li>
-            <a href="/hotels">Forum</a>
+            <a href="/forum">Forum</a>
+          </li>
+          <li>
+            <a href="/profile">Profile</a>
           </li>
         </ul>
       </div>
