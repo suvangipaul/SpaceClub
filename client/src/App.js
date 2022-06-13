@@ -1,7 +1,7 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Home, Collectables } from "./pages";
-import Header from "./components/header/header.components";
+import { Header } from './components'
 
 function App() {
   return (
