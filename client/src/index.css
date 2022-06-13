@@ -5,6 +5,8 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Life Savers', cursive;
+    color: white;
+    background-color: #0D0D0D;
 }
 
 code {
