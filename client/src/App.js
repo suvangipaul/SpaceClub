@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, Collectables, Explore } from "./pages";
+import { Home, Collectables, Explore, Marketplace } from "./pages";
 import { Header } from './components'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/collectables" element={<Collectables />} />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/marketplace" element={<Marketplace />} />
       </Routes>
     </div>
   );
