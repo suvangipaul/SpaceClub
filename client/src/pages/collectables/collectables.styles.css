@@ -1,0 +1,14 @@
+.c-image img{
+    position: relative;
+    margin-top: -5rem;
+    height: 30rem;
+    z-index: -2;
+    width: 100%;
+}
+.c-heading{
+    margin-left: 2rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    font-size: 70px;
+    text-align: left;
+}
