@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import {NFTCards} from '../../components'
 
 const Marketplace = () => {
     return (
@@ -48,6 +49,9 @@ const Marketplace = () => {
                 <h2>16.5</h2>
                 <p>floor price</p>
             </div>
+          </div>
+          <div className='cards'>
+            <NFTCards />
           </div>
         </div>
     )
