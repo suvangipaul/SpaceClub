@@ -1,0 +1,36 @@
+.main{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.card{
+    margin-bottom: 2rem;
+    height: 20rem;
+    width: 17rem;
+    z-index: -2;
+    background-color: rgba(128, 128, 128, 0.159);
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.card:hover {
+    box-shadow: 5px 5px 30px 15px rgba(56, 56, 56, 0.544), 
+      -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+  }
+.card-image img{
+    height: 15rem;
+    width: 16rem;
+    margin-top: 1rem;
+    margin-left: .5rem;
+}
+.card-text{
+    margin-left: 1rem;
+    display: flex;
+}
+.card-para{
+    margin-left: 2.5rem;
+    text-align: right;
+}
