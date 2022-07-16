@@ -1,7 +1,7 @@
 const express = require('express')
 const dotenv = require('dotenv')
 const cors = require('cors')
-const routeGraphQL = require('./graphql/query');
+// const routeGraphQL = require('./graphql/query');
 dotenv.config()
 
 // configuration

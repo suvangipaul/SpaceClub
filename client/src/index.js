@@ -7,12 +7,16 @@ import reportWebVitals from "./reportWebVitals";
 import { Auth0Provider } from "@auth0/auth0-react";
 import history from "./utils/history";
 import { getConfig } from "./config";
+import { ChainId, ThirdwebProvider } from '@thirdweb-dev/react'
 
 const onRedirectCallback = (appState) => {
   history.push(
     appState && appState.returnTo ? appState.returnTo : window.location.pathname
   );
 };
+
+const activeChainId = ChainId.Mainnet;
+
 
 const config = getConfig();
 
@@ -29,7 +33,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
      <Auth0Provider {...providerConfig}>
-      <App />
+      <ThirdwebProvider desiredChainId={activeChainId}>
+        <App />
+      </ThirdwebProvider>
      </Auth0Provider> 
     </BrowserRouter>
   </React.StrictMode>
